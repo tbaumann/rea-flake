@@ -45,7 +45,7 @@ buildNpmPackage (finalAttrs: {
     for program in rea rea-agents; do
       wrapProgram "$out/bin/$program" \
         --set-default GHIDRA_INSTALL_DIR "${ghidra}/lib/ghidra" \
-        --set-default JAVA_HOME "${openjdk21.home}"
+        --set-default JAVA_HOME "${openjdk25.home}"
     done
   '';
 
