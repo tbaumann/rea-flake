@@ -6,7 +6,7 @@
   makeWrapper,
   nodejs_24,
   ghidra,
-  openjdk21,
+  openjdk25,
   withGhidra ? true,
 }:
 
